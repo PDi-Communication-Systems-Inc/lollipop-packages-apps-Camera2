@@ -139,7 +139,7 @@ public class CaptureModule extends CameraModule
     private static final Tag TAG = new Tag("CaptureModule");
     private static final String PHOTO_MODULE_STRING_ID = "PhotoModule";
     /** Enable additional debug output. */
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
     /**
      * This is the delay before we execute onResume tasks when coming from the
      * lock screen, to allow time for onPause to execute.
